@@ -7,5 +7,6 @@ function randomHashGenerator() {
   // return randomHash;
   console.log(randomHash);
 }
-randomHashGenerator();
+//randomHashGenerator();
+setInterval(randomHashGenerator, 5000);
 
